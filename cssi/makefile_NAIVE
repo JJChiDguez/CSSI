@@ -1,0 +1,67 @@
+OBJ_DIR = obj
+BIN_DIR = bin
+
+AUTO : $(BIN_DIR)/main
+
+INC_DIR =  -Iinc
+FLAGS_CC =  -lm -lssl -lcrypto -fopenmp -O2 -m64 -fomit-frame-pointer -D_FILE_OFFSET_BITS=64
+FLAG_S =  ./lib/Arith.S
+CC=gcc
+
+
+$(OBJ_DIR)/naive.o: main/naive.c \
+	inc/naive.h \
+	inc/IsogLib.h \
+	inc/CurveArith.h \
+	inc/FieldArith.h \
+	inc/setup_EC.h \
+	inc/setup_FF.h 
+	$(CC) -o $(OBJ_DIR)/naive.o $(INC_DIR) $(FLAGS_CC) -c main/naive.c
+	$(COMMANDS)
+
+$(OBJ_DIR)/CurveArith.o: lib/CurveArith.c \
+	inc/CurveArith.h \
+	inc/FieldArith.h \
+	inc/setup_EC.h \
+	inc/setup_FF.h 
+	$(CC) -o $(OBJ_DIR)/CurveArith.o $(INC_DIR) $(FLAGS_CC) -c lib/CurveArith.c
+	$(COMMANDS)
+
+$(OBJ_DIR)/FieldArith.o: lib/FieldArith.c \
+	inc/FieldArith.h \
+	inc/setup_FF.h 
+	$(CC) -o $(OBJ_DIR)/FieldArith.o $(INC_DIR) $(FLAGS_CC) -c lib/FieldArith.c
+	$(COMMANDS)
+
+$(OBJ_DIR)/IsogLib.o: lib/IsogLib.c \
+	inc/IsogLib.h \
+	inc/CurveArith.h \
+	inc/FieldArith.h \
+	inc/setup_EC.h \
+	inc/setup_FF.h 
+	$(CC) -o $(OBJ_DIR)/IsogLib.o $(INC_DIR) $(FLAGS_CC) -c lib/IsogLib.c
+	$(COMMANDS)
+
+$(OBJ_DIR)/naive_Lib.o: lib/naive_Lib.c \
+	inc/naive.h \
+	inc/IsogLib.h \
+	inc/CurveArith.h \
+	inc/FieldArith.h \
+	inc/setup_EC.h \
+	inc/setup_FF.h 
+	$(CC) -o $(OBJ_DIR)/naive_Lib.o $(INC_DIR) $(FLAGS_CC) -c lib/naive_Lib.c
+	$(COMMANDS)
+
+ALL_OBJ =  $(OBJ_DIR)/naive.o \
+	$(OBJ_DIR)/CurveArith.o \
+	$(OBJ_DIR)/FieldArith.o \
+	$(OBJ_DIR)/IsogLib.o \
+	$(OBJ_DIR)/naive_Lib.o
+
+$(BIN_DIR)/main: $(ALL_OBJ)
+	 $(CC) $(INC_DIR) $(FLAG_S) -o $(BIN_DIR)/main $(ALL_OBJ) $(FLAGS_CC)
+clean:
+	rm $(OBJ_DIR)/*
+	rm $(BIN_DIR)/*
+
+

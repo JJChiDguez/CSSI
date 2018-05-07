@@ -1,0 +1,16 @@
+ var_A := 32; var_B := 20; var_f := 23;
+// var_A := 34; var_B := 21; var_f := 109;
+// var_A := 36; var_B := 22; var_f := 31;
+// var_A := 38; var_B := 23; var_f := 271;
+// var_A := 40; var_B := 25; var_f := 71;
+// var_A := 42; var_B := 26; var_f := 37;
+// var_A := 44; var_B := 27; var_f := 37;
+// var_A := 46; var_B := 29; var_f := 71;
+// var_A := 48; var_B := 30; var_f := 13;
+// var_A := 50; var_B := 31; var_f := 179;
+// var_A := 54; var_B := 34; var_f := 409;
+// var_A := 60; var_B := 37; var_f := 31;
+// var_A := 62; var_B := 40; var_f := 5;
+// var_A := 64; var_B := 38; var_f := 13;
+// var_A := 70; var_B := 32; var_f := 127;
+// var_A := 80; var_B := 25; var_f := 71;

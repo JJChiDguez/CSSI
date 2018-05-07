@@ -1,0 +1,11 @@
+//##########################################
+//# Arith.S: Assembly code for integer and
+//#          field arithmetic
+//# Created by: José Eduardo Ochoa Jiménez
+//##########################################
+
+// Registers that are used for parameter passing:
+#define reg_p1  %rdi
+#define reg_p2  %rsi
+#define reg_p3  %rdx
+
