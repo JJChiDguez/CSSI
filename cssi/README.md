@@ -2,11 +2,17 @@
 
 
 This reaserch project was realized by:
+
 *) Adj Gora,
+
 *) Cervantes-Vázquez Daniel,
+
 *) Chi-Domínguez Jesús-Javier
+
 *) Menezes Alfred, and
+
 *) Rodríguez-Henríquez Francisco
+
 
 
 C-CODE OF THE CSSI: CLASSICAL VERSION
