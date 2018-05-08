@@ -1,7 +1,7 @@
 #################################################
 
 
-This reaserch project was realized by:
+This research project was realized by:
 
 *) Adj Gora,
 
