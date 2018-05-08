@@ -49,11 +49,11 @@ Problem:
 		
 #################################################
 
-# Created by:	Jesús Javier Chi Domínguez 
+  Created by:	Jesús Javier Chi Domínguez 
                <chidoys@gmail.com>,
                <jjchi@computacion.cs.cinvestav.mx>
 
-# Thanks to José Eduardo Ochoa Jiménez for 
+  Thanks to José Eduardo Ochoa Jiménez for 
   its modular arithmetic implementation.
  
   The elliptic curve arithmetic was obtained from 
