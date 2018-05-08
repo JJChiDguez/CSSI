@@ -90,7 +90,7 @@ for development and testing purposes.
 #-----------------------------------------------#
 
 Prerequisites:
-Any version of gcc, and openmpe library must be 
+Any version of gcc, and openmp library must be 
 installed.
 
 #-----------------------------------------------#
@@ -102,7 +102,7 @@ You need to configure the headers:
 and the assambly file Arith.S.
 
 You can do such configuration by running the
-following statement:
+following statement (you need to have install magma):
 
 	sh cofing.sh
 
