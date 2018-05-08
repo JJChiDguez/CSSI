@@ -56,7 +56,7 @@ Problem:
 # Thanks to José Eduardo Ochoa Jiménez for 
   its modular arithmetic implementation.
  
-# The elliptic curve arithmetic was obtained from 
+  The elliptic curve arithmetic was obtained from 
   the formulaes that 
   Daniel J. Bernstein and Tanja Lange
   have in their website:
