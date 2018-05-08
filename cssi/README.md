@@ -1,5 +1,14 @@
 #################################################
 
+
+This reaserch project was realized by:
+*) Adj Gora,
+*) Cervantes-Vázquez Daniel,
+*) Chi-Domínguez Jesús-Javier
+*) Menezes Alfred, and
+*) Rodríguez-Henríquez Francisco
+
+
 C-CODE OF THE CSSI: CLASSICAL VERSION
 
 
@@ -49,7 +58,7 @@ Problem:
 		
 #################################################
 
-  Created by:	Jesús Javier Chi Domínguez 
+  This code was created by:	Jesús Javier Chi Domínguez 
                <chidoys@gmail.com>,
                <jjchi@computacion.cs.cinvestav.mx>
 
