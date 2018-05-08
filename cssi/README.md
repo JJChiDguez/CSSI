@@ -1,4 +1,5 @@
 #################################################
+
 C-CODE OF THE CSSI: CLASSICAL VERSION
 
 
@@ -9,6 +10,7 @@ C-CODE OF THE CSSI: CLASSICAL VERSION
 
 
 Setting:
+
 	-) p is a prime of the form 2^e_a*3^e_b*f - 1
 	-) E is a supersingular curve, 
 		E_A is 2^e_a-isogenous to E, and 
@@ -17,6 +19,7 @@ Setting:
 		P_B and Q_B are two oder-3^e_b points,
 		
 Problem:
+
 	-) We know \phi_A(P_B) and \phi_A(Q_B) in E_A, 
 	-) We know \phi_B(P_A) and \phi_B(Q_A) in E_B, 
 	-) We want to find an isogeny of degree:
@@ -62,6 +65,7 @@ Problem:
 #################################################
 
 #-----------------------------------------------#
+
 Getting Started:
 
 These instructions will get you a copy of the 
@@ -69,11 +73,13 @@ project up and running on your local machine
 for development and testing purposes. 
 
 #-----------------------------------------------#
+
 Prerequisites:
 Any version of gcc, and openmpe library must be 
 installed.
 
 #-----------------------------------------------#
+
 Installing:
 You need to configure the headers:
 	- setup_FF.h, and
@@ -86,6 +92,7 @@ following statement:
 	sh cofing.sh
 
 ---
+
 Moreover, if you want to change the prime p you
 should modify the file:
 
@@ -107,6 +114,7 @@ following statement:
 Now, you're able for ATTACKS instances!
 
 #-----------------------------------------------#
+
 Running the tests:
 
 NAIVE APPROACH:
