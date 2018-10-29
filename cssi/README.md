@@ -133,12 +133,15 @@ Now, you're able for ATTACKS instances!
 Running the tests:
 
 NAIVE APPROACH:
+
 	./bin/naive NUMBER_OF_CORES ALICE_OR_BOB
 
 DFS APPROACH:
+
 	./bin/dfs NUMBER_OF_CORES ALICE_OR_BOB
 		
 LAMBDA APPROACH:
+
 	./bin/lambda NUMBER_OF_CORES ALICE_OR_BOB W BETA NUMBER_OF_FUNCTIONS_TO_USED
 
 Here, ALICE_OR_BOB can take the values A or B (but the case B is 
@@ -149,10 +152,14 @@ of the function f you want to reached (only for estimations).
 For making several experiments, you can run
 
 	sh run_naive NUMBER_OF_CORES NUMBER_OF_EXPERIMENTS
+	
 To check the median and mean of the experiments, you can run:
+
 	python naive_results.py
 Output:
+
 	- Measured running time,
+	
 	- Measured Clock Cycles,
 		
 	sh run_dfs NUMBER_OF_CORES NUMBER_OF_EXPERIMENTS
