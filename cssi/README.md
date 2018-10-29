@@ -166,13 +166,22 @@ Output:
 To check the median and mean of the experiments, you can run:
 	python lambda_results.py
 Output:
+
 	- Measured running time,
+	
 	- Measured running time for all dist. points reached,
+	
 	- Measured running time for all collisions reached,
+	
 	- Number of functions,
+	
 	- Measured Clock Cycles,
+	
 	- Distinguished points reached,
+	
 	- Different distinguished points reached,
+	
 	- Different collisions reached, and
+	
 	- Total collisions reached.
 
